@@ -47,3 +47,9 @@ Finally, open `/etc/environment` and add this line:
 QT_QPA_PLATFORMTHEME=gtk2
 ```   
 (Source: https://www.youtube.com/watch?v=rP4DWu24ff0)
+
+### <a name='caps_ctrl'></a>Map Caps-lock key to Ctrl
+- Open `Session and Startup` (via the Whisker menu, for example), click on the `Application Autostart` tab.
+- Click on `Add`.
+- In the small window, enter a name and add this command: `/usr/bin/setxkbmap -option 'ctrl:nocaps'`. OK and leave.
+- Restart your computer.
