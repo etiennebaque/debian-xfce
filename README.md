@@ -47,6 +47,8 @@ Finally, open `/etc/environment` and add this line:
 ```
 QT_QPA_PLATFORMTHEME=gtk2
 ```   
+Finally, restart the computer.
+
 (Source: https://www.youtube.com/watch?v=rP4DWu24ff0)
 
 ### <a name='caps_ctrl'></a>Map Caps-lock key to Ctrl
